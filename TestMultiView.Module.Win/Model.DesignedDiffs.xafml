@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="14.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="14.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DashboardView Id="StudentWithSearchListView" AllowEdit="True" />
+  </Views>
+</Application>

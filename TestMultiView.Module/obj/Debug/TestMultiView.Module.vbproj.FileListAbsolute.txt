@@ -1,0 +1,9 @@
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module\bin\Debug\TestMultiView.Module.dll
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module\bin\Debug\TestMultiView.Module.pdb
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module\bin\Debug\TestMultiView.Module.xml
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module\obj\Debug\TestMultiView.Module.Resources.resources
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module\obj\Debug\TestMultiView.Module.vbproj.GenerateResource.Cache
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module\obj\Debug\TestMultiView.Module.dll
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module\obj\Debug\TestMultiView.Module.xml
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module\obj\Debug\TestMultiView.Module.pdb
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module\obj\Debug\TestMultiView.Module.dll.licenses

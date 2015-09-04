@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="TestMultiView" Logo="ExpressAppLogo">
+  <ActionDesign>
+    <ActionToContainerMapping>
+      <ActionContainer Id="ObjectsCreation" Removed="True" />
+      <ActionContainer Id="SearchStudentContainer" IsNewNode="True">
+        <ActionLink ActionId="SearchStudentAction" Index="0" IsNewNode="True" />
+        <ActionLink ActionId="PopupAction1" Index="1" IsNewNode="True" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
+  <CreatableItems>
+    <CreatableItem ClassName="TestMultiView.Module.Student" Removed="True" />
+    <CreatableItem ClassName="TestMultiView.Module.Student2" Removed="True" />
+    <CreatableItem ClassName="TestMultiView.Module.StudentSearch" Removed="True" />
+  </CreatableItems>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Student_ListView" Caption="Student_male" ObjectKey="" />
+          <Item Id="Student_ListView_Female" ObjectKey="" Caption="Student_female" ViewId="Student_ListView_female" IsNewNode="True" />
+          <Item Id="StudentWithSearch" ViewId="StudentWithSearchListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="14.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Student_ListView" Criteria="[Gender] = ##Enum#TestMultiView.Module.Student+GenderType,Male#" />
+    <ListView Id="Student_ListView_female" ClassName="TestMultiView.Module.Student" Caption="Student_female" Criteria="[Gender] = ##Enum#TestMultiView.Module.Student+GenderType,Female#" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="StudentName" PropertyName="StudentName" Width="400" SortIndex="0" SortOrder="Ascending" Index="0" IsNewNode="True" />
+        <ColumnInfo Id="StudentID" PropertyName="StudentID" Width="70" Index="1" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="StudentSearch_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="StudentSearch" Direction="Horizontal" RelativeSize="100">
+              <LayoutItem Id="StudentID" SizeConstraintsType="Default" RelativeSize="49.870801033591732" />
+              <LayoutItem Id="StudentName" SizeConstraintsType="Default" RelativeSize="50.129198966408268" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DashboardView Id="StudentWithSearchListView" Caption="StudentWithSearchListView" IsNewNode="True">
+      <Items IsNewNode="True">
+        <DashboardViewItem Id="StudentSearchItem" ViewId="StudentSearch_DetailView" Index="0" IsNewNode="True" />
+        <ActionContainerViewItem Id="SeachAction1" ActionContainer="SearchStudentContainer" Caption="SeachAction1" Index="1" IsNewNode="True" />
+        <DashboardViewItem Id="StudentListItem" ViewId="Student_ListView" Caption="StudentListItem" Index="2" IsNewNode="True" />
+      </Items>
+      <Layout IsNewNode="True">
+        <LayoutGroup Id="Main" ShowCaption="False" Index="0" RelativeSize="100" IsNewNode="True">
+          <LayoutItem Id="StudentSearchItem" ViewItem="StudentSearchItem" Index="0" SizeConstraintsType="Default" RelativeSize="16.942148760330578" IsNewNode="True" />
+          <LayoutItem Id="SeachAction1" ViewItem="SeachAction1" SizeConstraintsType="Default" Index="1" RelativeSize="5.3719008264462813" ShowCaption="False" IsNewNode="True" />
+          <LayoutItem Id="StudentListItem" ViewItem="StudentListItem" Index="2" SizeConstraintsType="Default" RelativeSize="77.685950413223139" IsNewNode="True" />
+        </LayoutGroup>
+      </Layout>
+    </DashboardView>
+  </Views>
+</Application>

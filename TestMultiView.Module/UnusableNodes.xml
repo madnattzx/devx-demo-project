@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign Id="ActionDesign">
+    <Actions Id="Actions">
+      <Action Id="SearchStudentAction" ImageName="Action_Debug_Breakpoint_Toggle" />
+    </Actions>
+  </ActionDesign>
+</Application>

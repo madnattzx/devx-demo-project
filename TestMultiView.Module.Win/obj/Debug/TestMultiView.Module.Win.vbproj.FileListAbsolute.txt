@@ -1,0 +1,14 @@
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\bin\Debug\TestMultiView.Module.Win.dll
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\bin\Debug\TestMultiView.Module.Win.pdb
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\bin\Debug\TestMultiView.Module.Win.xml
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\bin\Debug\TestMultiView.Module.dll
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\bin\Debug\TestMultiView.Module.pdb
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\bin\Debug\TestMultiView.Module.xml
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\obj\Debug\TestMultiView.Module.Win.vbprojResolveAssemblyReference.cache
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\obj\Debug\TestMultiView.Module.Win.Resources.resources
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\obj\Debug\TestMultiView.Module.Win.vbproj.GenerateResource.Cache
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\obj\Debug\TestMultiView.Module.Win.dll
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\obj\Debug\TestMultiView.Module.Win.xml
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\obj\Debug\TestMultiView.Module.Win.pdb
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\obj\Debug\TestMultiView.Module.Win.dll.licenses
+D:\Works\2014\@TestSolution\TestMultiView\TestMultiView.Module.Win\obj\Debug\TestMultiView.Module.Win.ViewController1.resources
